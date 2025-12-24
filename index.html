@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ธนภรณ์ อินอ่อน - My Story</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2e7d32; /* สีเขียวอเมซอนตามประสบการณ์ทำงาน */
+            --secondary-color: #f5f5f5;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Kanit', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background: linear-gradient(135deg, #1b5e20, #4caf50);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -50px auto 50px auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            padding-bottom: 5px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            border-left: 5px solid var(--primary-color);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .experience-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .experience-list li {
+            margin-bottom: 1rem;
+            padding-left: 1rem;
+            border-left: 2px solid #ddd;
+        }
+
+        .skills-tag {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #333;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/180" alt="ธนภรณ์ อินอ่อน" class="profile-img">
+    <h1>ธนภรณ์ อินอ่อน (Thanaporn In-on)</h1>
+    <p>นักศึกษามหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ</p>
+</header>
+
+<div class="container">
+    <div class="grid">
+        <section>
+            [cite_start]<h2 class="section-title">ประวัติส่วนตัว [cite: 2]</h2>
+            <p><strong>วันเกิด:</strong> 18 เมษายน พ.ศ. [cite_start]2550 (อายุ 18 ปี) [cite: 3]</p>
+            [cite_start]<p><strong>ที่อยู่:</strong> 105/2 ม.5 ต.เดิมบาง อ.เดิมบางนางบวช จ.สุพรรณบุรี 72120 [cite: 4]</p>
+            [cite_start]<p><strong>ความสามารถพิเศษ:</strong> วาดรูป [cite: 6]</p>
+            <div>
+                <strong>งานอดิเรก:</strong>
+                <span class="skills-tag">เล่นเกม</span>
+                <span class="skills-tag">ฟังเพลง</span>
+                <span class="skills-tag">ดูหนัง</span>
+                [cite_start]<span class="skills-tag">ทำงานพาร์ทไทม์</span> [cite: 5]
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">จุดเด่นและความสนใจ</h2>
+            <div class="card">
+                [cite_start]<strong>ความโดดเด่น:</strong> [cite: 8]
+                <p>โดดเด่นในด้านการค้าขาย เพราะชอบการขายของเป็นพิเศษ</p>
+            </div>
+            [cite_start]<p><strong>สิ่งที่สนใจ:</strong> เกม, การขายของ, ร้องเพลง [cite: 10]</p>
+            [cite_start]<p><strong>Idol ต้นแบบ:</strong> เติ้ล มติมันท์ และ เฟิร์สวัน วรรณกร [cite: 9]</p>
+        </section>
+    </div>
+
+    <hr style="margin: 2rem 0; opacity: 0.2;">
+
+    <section>
+        [cite_start]<h2 class="section-title">ประสบการณ์การทำงาน [cite: 7]</h2>
+        <ul class="experience-list">
+            <li>
+                <strong>Café Amazon (7 เดือนเต็ม)</strong><br>
+                ทำงานพาร์ทไทม์ช่วงมัธยมปลาย (เสาร์-อาทิตย์ และวันหยุดนักขัตฤกษ์)
+            </li>
+            <li>
+                <strong>ธุรกิจส่วนตัว / รับจ้างขายของ</strong><br>
+                รับจ้างขายของตามร้านค้าในปั๊มน้ำมัน ในวันเสาร์-อาทิตย์ หรือวันที่ไม่มีเรียน (ปัจจุบันยังคงทำอยู่)
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">ลิงก์ที่เกี่ยวข้อง</h2>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+            <ul>
+                [cite_start]<li><a href="https://rmutsb.ac.th/" target="_blank">มทร.สุวรรณภูมิ</a> [cite: 11, 12]</li>
+                [cite_start]<li><a href="https://bait.rmutsb.ac.th/" target="_blank">คณะบริหารธุรกิจฯ</a> [cite: 13]</li>
+                [cite_start]<li><a href="https://fastwork.co/" target="_blank">Fastwork Profile</a> [cite: 14]</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Thanaporn In-on. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>8
